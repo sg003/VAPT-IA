@@ -1,0 +1,58 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.login-box {
+    width: 300px; /* Set the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding inside the box */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Make the container take the full height of the viewport */
+  }
+  .container {
+    width: 700px; /* Set the width of the box */
+    text-align: center;
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding inside the box */
+    border: 1px solid #000000; /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  body{
+    background-image: linear-gradient(to right, rgb(194, 115, 115), rgb(206, 190, 190));
+  }
+  .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card a {
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: '#11195c';
+  }
