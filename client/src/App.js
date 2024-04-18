@@ -20,7 +20,7 @@ function App() {
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/student/home" element={<PrivateRoute element={<Home/>} />}></Route>
         <Route path="/admin/home" element={<PrivateRoute element={<Admin/>} />}></Route>
-        <Route path="fakepage" element={<FakePage/>}></Route>
+        <Route path="/fakepage" element={<FakePage/>}></Route>
       </Routes>
     </Router>
   );

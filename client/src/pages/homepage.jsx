@@ -8,7 +8,7 @@ const Homepage = () => {
       <header>
         <h1>K.J. Somaiya College of Engineering</h1>
         <ul style={{ listStyleType: 'none', padding: 0 }}>
-            <li style={{ display: 'inline', marginRight: '10px' }}><a href="/courses" style={{ textDecoration: 'none', color: '#11195c' }}>Courses</a></li>
+            <li style={{ display: 'inline', marginRight: '10px' }}><a href="/fakepage" style={{ textDecoration: 'none', color: '#11195c' }}>Courses</a></li>
             <li style={{ display: 'inline', marginRight: '10px' }}><a href="/faculty" style={{ textDecoration: 'none', color: '#11195c' }}>Faculty</a></li>
             <li style={{ display: 'inline', marginRight: '10px' }}><a href="/admissions" style={{ textDecoration: 'none', color: '#11195c' }}>Admissions</a></li>
             <li style={{ display: 'inline', marginRight: '10px' }}><a href="/events" style={{ textDecoration: 'none', color: '#11195c' }}>Events</a></li>          </ul>

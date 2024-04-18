@@ -12,7 +12,7 @@ const AdminHomepage = () => {
           <li style={{ display: 'inline', marginRight: '10px' }}><a href="/faculty" style={{ textDecoration: 'none', color: '#11195c' }}>Faculty</a></li>
           <li style={{ display: 'inline', marginRight: '10px' }}><a href="/admissions" style={{ textDecoration: 'none', color: '#11195c' }}>Admissions</a></li>
           <li style={{ display: 'inline', marginRight: '10px' }}><a href="/events" style={{ textDecoration: 'none', color: '#11195c' }}>Events</a></li>
-          <li style={{ display: 'inline', marginRight: '10px' }}><a href="/admin" style={{ textDecoration: 'none', color: '#11195c' }}>Admin Dashboard</a></li> {/* New admin link */}
+          <li style={{ display: 'inline', marginRight: '10px' }}><a href="/fakepage" style={{ textDecoration: 'none', color: '#11195c' }}>Admin Dashboard</a></li> {/* New admin link */}
         </ul>
       </header>
       <main>
@@ -45,7 +45,7 @@ const AdminHomepage = () => {
           <h2>Manage Events</h2>
           <p>View, add, edit, or delete events.</p>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
-          <li style={{ display: 'inline', marginRight: '10px' }}><a href="/event" style={{ textDecoration: 'none', color: '#11195c' }}>Go to Events Management</a></li>
+          <li style={{ display: 'inline', marginRight: '10px' }}><a href="/fakepage" style={{ textDecoration: 'none', color: '#11195c' }}>Go to Events Management</a></li>
           </ul>
         </section><br/><hr style={{ borderBottom: '1px solid black' }} /><br/>
       </main>
